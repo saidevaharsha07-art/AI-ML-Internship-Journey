@@ -1,0 +1,37 @@
+PANDAS QUICK REVISION
+
+Series
+- 1D labeled array
+
+DataFrame
+- 2D table structure
+
+Import CSV
+- pd.read_csv()
+
+View Data
+- head()
+- tail()
+- info()
+- describe()
+
+Filtering
+- df[df["Age"] > 20]
+
+Cleaning
+- isnull()
+- fillna()
+- dropna()
+
+Aggregation
+- mean()
+- sum()
+- max()
+- min()
+- count()
+
+Grouping
+- groupby()
+
+Sorting
+- sort_values()
