@@ -1,0 +1,13 @@
+f = open("students.txt", "w")
+n = int(input("Enter number of students: "))
+for i in range(n):
+    print("\nEnter Student", i + 1, "Details")
+    name = input("Enter Name: ")
+    roll = input("Enter Roll Number: ")
+    marks = input("Enter Marks: ")
+    f.write("Name: " + name + "\n")
+    f.write("Roll Number: " + roll + "\n")
+    f.write("Marks: " + marks + "\n")
+    f.write("---------------------\n")
+print("Student records stored successfully")
+f.close()

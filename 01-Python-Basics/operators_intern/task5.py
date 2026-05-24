@@ -1,0 +1,16 @@
+name = input("Enter name of student: ")
+roll_number = input("Enter roll number: ")
+age = int(input("Enter age: "))
+course = input("Enter course: ")
+marks1 = float(input("Enter marks of subject 1: "))
+marks2 = float(input("Enter marks of subject 2: "))
+marks3 = float(input("Enter marks of subject 3: "))
+total_marks = marks1 + marks2 + marks3
+average_marks = total_marks / 3
+print("\nStudent Information:")
+print("Name:", name)
+print("Roll Number:", roll_number)
+print("Age:", age)
+print("Course:", course)
+print("Total Marks:", total_marks)
+print("Average Marks:", average_marks)

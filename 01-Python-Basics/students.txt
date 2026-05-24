@@ -1,0 +1,12 @@
+Name: Harsha
+Roll Number: 05j4
+Marks: 99
+---------------------
+Name: krishna
+Roll Number: 05e1
+Marks: 91
+---------------------
+Name: deekshith
+Roll Number: 05e6
+Marks: 95
+---------------------
