@@ -44,7 +44,7 @@ Learning AI, Machine Learning, Data Science and Python through internship tasks,
 - [ ] Random Forest
 
 ## Mini Projects
-- [ ] ToDo List
+- [X] ToDo List
 - [ ] Student Marks Predictor
 - [ ] House Price Predictor
 
