@@ -28,7 +28,7 @@ Learning AI, Machine Learning, Data Science and Python through internship tasks,
 ## Matplotlib
 - [X] Line Plot
 - [X] Bar Plot
-- [ ] Histogram
+- [X] Histogram
 - [X] Pie Chart
 
 ## Seaborn
