@@ -3,33 +3,33 @@
 Learning AI, Machine Learning, Data Science and Python through internship tasks, projects and practical implementations.
 
 ## Python Basics
-- [ ] Operators
-- [ ] Conditional Statements
-- [ ] Loops
-- [ ] Functions
-- [ ] Modules
-- [ ] File Handling
-- [ ] Exception Handling
+- [X] Operators
+- [X] Conditional Statements
+- [X] Loops
+- [X] Functions
+- [X] Modules
+- [X] File Handling
+- [X] Exception Handling
 
 ## NumPy
-- [ ] Array Creation
-- [ ] Indexing
-- [ ] Slicing
-- [ ] Matrix Operations
-- [ ] Random Functions
+- [X] Array Creation
+- [X] Indexing
+- [X] Slicing
+- [X] Matrix Operations
+- [X] Random Functions
 
 ## Pandas
-- [ ] Series
-- [ ] DataFrame
-- [ ] CSV Handling
-- [ ] Aggregation Functions
-- [ ] Data Cleaning
+- [X] Series
+- [X] DataFrame
+- [X] CSV Handling
+- [X] Aggregation Functions
+- [X] Data Cleaning
 
 ## Matplotlib
-- [ ] Line Plot
-- [ ] Bar Plot
+- [X] Line Plot
+- [X] Bar Plot
 - [ ] Histogram
-- [ ] Pie Chart
+- [X] Pie Chart
 
 ## Seaborn
 - [ ] Heatmap
