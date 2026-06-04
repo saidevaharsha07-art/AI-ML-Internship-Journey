@@ -10,9 +10,9 @@ This project implements a **Loan Approval Prediction System** using the **Decisi
 
 ## 🎯 Problem Statement
 
-Financial institutions receive numerous loan applications every day. Analyzing each application manually is inefficient and prone to errors.
+Banks and financial institutions must evaluate customer loan applications before approval. This process depends on several factors such as annual income, credit score, loan amount, employment status, education level, and existing debt.
 
-The objective of this project is to build a machine learning model that can automatically predict loan approval status using applicant information, helping financial institutions make faster and more consistent decisions.
+The objective of this project is to build a Decision Tree Machine Learning model that predicts whether a customer's loan application will be approved or rejected based on these factors. This helps automate the loan evaluation process and supports faster decision-making.
 
 ---
 
