@@ -1,21 +1,16 @@
 import os
-
-TASKS_FILE = "t1.txt"
-
+TASKS_FILE = "tasks.txt"
 
 def load_tasks():
     if not os.path.exists(TASKS_FILE):
         return []
-
     with open(TASKS_FILE, 'r') as file:
         return [task.strip() for task in file.readlines()]
-
-
+    
 def save_tasks(tasks):
     with open(TASKS_FILE, 'w') as file:
         for task in tasks:
             file.write(task + "\n")
-
 
 def add_task():
     task = input("Enter task: ")
@@ -26,7 +21,6 @@ def add_task():
 
     save_tasks(tasks)
     print("Task added successfully")
-
 
 def view_tasks():
     tasks = load_tasks()
@@ -40,7 +34,6 @@ def view_tasks():
             print(i, ".", task)
 
         print("\nTotal Tasks:", len(tasks))
-
 
 def update_task():
     view_tasks()
