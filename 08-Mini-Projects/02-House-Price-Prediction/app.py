@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import streamlit as st
 from sklearn.linear_model import LinearRegression
@@ -7,7 +8,8 @@ st.set_page_config(page_title="House Price Prediction", page_icon="🏠")
 st.title("🏠 House Price Prediction App")
 st.write("Enter house details below to predict the house price.")
 
-df = pd.read_csv("house_price_dataset.csv")
+file_path = os.path.join(os.path.dirname(__file__), "house_price_dataset.csv")
+df = pd.read_csv(file_path)
 
 X = df.drop("Price", axis=1)
 y = df["Price"]
@@ -24,11 +26,11 @@ location_rating = st.number_input("Location Rating", min_value=1, max_value=10, 
 distance = st.number_input("Distance from City Center (km)", min_value=1, max_value=50, value=10)
 
 if st.button("Predict House Price"):
-    new_house = pd.DataFrame(
-        [[area, bedrooms, bathrooms, parking, house_age, location_rating, distance]],
-        columns=X.columns
-    )
 
-    prediction = model.predict(new_house)
+    if location_rating < 3 or distance > 40:
+        st.error("Unable to predict. Please enter realistic house details.")
+    else:
+        input_data = [[area, bedrooms, bathrooms, parking, house_age, location_rating, distance]]
+        prediction = model.predict(input_data)
 
-    st.success(f"🏡 Predicted House Price: ₹ {prediction[0]:,.2f}")
+        st.success(f"🏠 Predicted House Price: ₹ {prediction[0]:,.2f}")
