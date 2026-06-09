@@ -14,7 +14,7 @@ Predict whether a customer loan application is likely to be approved or rejected
 
 st.info("Fill in the applicant details and click Predict Loan Status.")
 
-loan_data = pd.read_csv("dataset/loan_approval_decision_tree_dataset.csv")
+loan_data = pd.read_csv("../dataset/loan_approval_decision_tree_dataset.csv")
 
 employment_encoder = LabelEncoder()
 education_encoder = LabelEncoder()
